@@ -1,0 +1,15 @@
+[RUS]
+Чтобы активировать аддон, введите в чат /notebook;
+Откроется окно, в которое можно написать Имя игрока, его фракцию и причину по которой вы хотите отомстить;
+Кнопка "Сохранить" сохраняет данные в ...\WTF\Account\'Ваш логин'\SavedVariables\DeathNotebook.lua;
+При нажатии на кнопку "Экспорт" в чате выводятся те игроки которые вы ввели в свою БД;
+При нажатии на кнопку "Очистить" в чат выведется уведомление "Данные очищены" и все данные удаляются.
+Программа в разработке и вскоре данные автоматически будут выкладываться в вашу Google таблицу, с помощью API, чтобы ваши друзья могли отомстить за вас ;)
+--------------------------------------------------------------------------------------------------------------------------------------------------
+[ENG]
+To activate the addon, enter in the chat /notebook;
+A window opens in which you can write the player's Name, his faction and the reason why you want to take revenge;
+The "Сохранить" button saves the data in ...\WTF\Account\'Your username is '\SavedVariables\DeathNotebook.lua;
+When you click on the "Экспорт" button in the chat, the players that you entered into your database are displayed;
+When you click on the "Очистить" button, a notification "Данные очищены" and all data is deleted" will be displayed in the chat.
+The program is under development and soon the data will be automatically uploaded to your Google Spreadsheet using the API so that your friends can avenge you ;)
