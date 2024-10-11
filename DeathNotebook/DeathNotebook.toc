@@ -1,0 +1,10 @@
+## Interface: 30300
+## Title: DeathNotebookDB
+## Notes: A simple notebook for tracking player deaths.
+## Author: Ignat Doluin
+## Version: 1.1
+## SavedVariables: DeathNotebookDB, ChatHistory
+
+DeathNotebook.lua
+
+Notebook.xml

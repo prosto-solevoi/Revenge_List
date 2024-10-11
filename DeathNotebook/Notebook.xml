@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Frame name="MyAddonFrame" parent="UIParent" movable="true" enableMouse="true">
+        <Size>
+            <Item>
+                <Width>400</Width>
+                <Height>200</Height>
+            </Item>
+        </Size>
+        <Anchors>
+            <Anchor point="CENTER" />
+        </Anchors>
+        <Scripts>
+            <OnLoad>
+                self:RegisterForDrag("LeftButton")
+                self:SetScript("OnDragStart", self.StartMoving)
+                self:SetScript("OnDragStop", self.StopMovingOrSizing)
+            </OnLoad>
+        </Scripts>
+        
+        <Texture name="$parentBackground" layer="BACKGROUND" setAllPoints="true">
+            <Color r="0" g="0" b="0" a="0.5"/>
+        </Texture>
+        
+        <FontString name="$parentTitle" font="GameFontNormalLarge" text="My Addon">
+            <Anchors>
+                <Anchor point="TOP" relativeTo="$parent" relativePoint="TOP" x="0" y="-5"/>
+            </Anchors>
+        </FontString>
+
+        <Button name="$parentButton" text="Click Me" template="UIPanelButtonTemplate">
+            <Size>
+                <Item>
+                    <Width>100</Width>
+                    <Height>30</Height>
+                </Item>
+            </Size>
+            <Anchors>
+                <Anchor point="BOTTOM" relativeTo="$parent" relativePoint="BOTTOM" x="0" y="10"/>
+            </Anchors>
+            <Scripts>
+                <OnClick>
+                    print("Button clicked!")
+                </OnClick>
+            </Scripts>
+        </Button>
+    </Frame>
+</Ui>
